@@ -1,15 +1,20 @@
-lute value of an integer
- * @n: the int to check
  #include "main.h"
 
 /**
- * _abs - computes the abso* Return: the absolute value of int
+ * _abs - calculate the absolute value of the number from zero
+ * @r: An integer input
+ * Description: This function returns absolute value of a number
+ * Return: the absolute value of number r
  */
+
 int _abs(int n)
 {
-	if (n >= 0)
+	if (r >= 0)
 	{
-		return (n);
+		return (r);
 	}
-	return (-n);
+	else
+	{
+		return (r * -1);
+	}
 }
