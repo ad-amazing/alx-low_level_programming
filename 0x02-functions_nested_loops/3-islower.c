@@ -1,11 +1,26 @@
 #include "main.h"
 
 /**
- * _islower - checks for lowercase character
- * @c: the character to check
- *_islower(int c)
+ *  * test_islower - Test the _islower function
+ *   *
+ *    * @n: Number to pass to _islower function
+ *     */
+void test_islower(int n)
 {
-		return (c >= 'a' && c <= 'z'); Return: 1 if c is lowercase, 0 otherwise
- */
-int 
+		int r;
+
+			r = _islower(n);
+				_putchar(r + '0');
+					_putchar('\n');
+}
+
+/**
+ *  * main - check the code for Holberton School students.
+ *   *
+ *    * Return: Always 0.
+ *     */
+int main(void)
+{
+		test_islower('H');
+			return (0);
 }
