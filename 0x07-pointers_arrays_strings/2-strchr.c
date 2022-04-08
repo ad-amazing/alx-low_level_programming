@@ -1,9 +1,9 @@
-acter in a string
+#include "main.h"
+/**
+ * _strchr -  locates a character in a string
  *
  * @s: pointer to a string
- *#include "main.h"
-/**
- * _strchr -  locates a char @c: the char we want to find in s
+ * @c: the char we want to find in s
  * Return: the first occurrence of c in s or null if not found
  *
  */
