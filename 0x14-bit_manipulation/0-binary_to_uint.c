@@ -28,6 +28,7 @@ unsigned int binary_to_uint(const char *b)
 }
 
 return (sum);
+}
 
 /**
   * _strlen - Returns the length of a string
