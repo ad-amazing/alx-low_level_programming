@@ -7,16 +7,18 @@
   * @n: The number to find the index
   * @index: The index to find
   *
-  * Return:  int index)
-{
-	unsigned int comp_i = 0;
-
-	while (n...
+  * Return: ...
   */
-int get_bit(unsigned long int n, unsigned)
+int get_bit(unsigned long int n, unsigned int index)
 	{
-		if (comp_i == index)
+		unsigned int comp_i = 0;
+
+		while (n)
 		{
+
+			if (comp_i == index)
+		{
+
 			if (n % 2)
 				return (1);
 			else
