@@ -3,10 +3,10 @@
 #include "main.h"
 
 /**
-  * binary_to_uint - Converts a binaryng to converts
+  * binary_to_uint - Converts a binary number to assigned int
+  * @b: The binary string to converts
   *
-  * Return: The positive number number to an unsigned int
-  * @b: The binary stri converted from a binary
+  * Return: The positive number number converted from a binary
   */
 unsigned int binary_to_uint(const char *b)
 {
@@ -18,17 +18,16 @@ unsigned int binary_to_uint(const char *b)
 	len = _strlen(b);
 	while (len--)
 	{
-		if (b[len] ] == 49)
+		if (b[len] != 48 && b[len] != 49)
+			return (0);
+
+		if (b[len] == 49)
 			sum += 1 << count;
 
 		count++;
-	}
-
-	re!= 48 && b[len] != 49)
-			return (0);
-
-		if (b[lenturn (sum);
 }
+
+return (sum);
 
 /**
   * _strlen - Returns the length of a string
