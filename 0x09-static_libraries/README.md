@@ -1,1 +1,1 @@
-Static Library
+This is a static library project
